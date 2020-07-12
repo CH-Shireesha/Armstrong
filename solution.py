@@ -6,7 +6,7 @@ def checkArmstrong(num):
         sum = 0
         temp = num
         while (temp > 0):
-                n = num % 10
+                n = temp % 10
                 sum = sum + (n ** 3)
                 temp //= 10
                 print(sum)
