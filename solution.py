@@ -9,7 +9,6 @@ def checkArmstrong(num):
                 n = temp % 10
                 sum = sum + (n ** 3)
                 temp //= 10
-                print(sum)
         if (num == sum):
                 return True
         else:
