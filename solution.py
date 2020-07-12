@@ -13,5 +13,3 @@ def checkArmstrong(num):
                 return True
         else:
                 return False
-
-checkArmstrong(153)
